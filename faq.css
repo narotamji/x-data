@@ -1,0 +1,174 @@
+body {
+	background-color: #fff;
+}
+
+.faq__banner {
+	background: linear-gradient(to top, rgba(0,0,0,0.6) 10%, transparent),url(Images/faq.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: 0;
+	padding-top: 2rem;
+}
+
+.banner__content {
+	padding: 3rem 0;
+	margin: 0 0 0 5rem;
+	color: white;
+}
+
+.banner__title h2 {
+	font-size: 3rem;
+	text-shadow: 2px 2px 2px 2px white;
+}
+
+.dash {
+	background: white;
+	height: 3px;
+	width: 2rem;
+	margin: 2rem 0;
+}
+
+.banner__info p {
+	font-size: 1rem;
+	width: 45%;
+	line-height: 26px;
+    margin: 0;
+}
+
+@media (max-width: 75rem) and (min-width: 576px){
+	.banner__content {margin: 5rem 5rem 0 5rem;}
+}
+
+@media (max-width: 576px){
+	.banner__content {margin: 5rem 1.5rem 0 1.5rem;}
+}
+
+@media (max-width: 61.93rem){
+	.banner__content {text-shadow: 1px 1px #7e7e7e;}
+	.banner__title h2 {font-size: 2rem;}
+	.banner__info p { width: 100%; font-size: 0.8rem;}
+}
+/*first__container*/
+.first__container {
+	background-color: #358cdd;
+}
+
+.heading__slide {
+	padding: 2rem 5rem;
+}
+
+.headings {
+	text-align: center;
+	padding-top: 2px;
+}
+
+.headings a {
+	color: white;
+	font-weight: bold;
+	margin: auto;
+	padding: 0 1.5rem;
+	font-size: 1.3rem;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+@media (max-width: 61.93rem){
+	.heading__slide {padding: 1.25rem 2rem;}
+}
+
+@media (max-width: 576px){
+	.headings a {display: block; padding: 3px 1.5rem; font-size: 1rem; }
+}
+
+/*.heading {
+	border-left: 0.5px solid black;
+	border-right: 0.5px solid black;
+}*/
+
+.headings a:hover {
+	border-top: 3px solid white;
+	padding-top: 2rem;
+}
+
+.general__questions {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.section__title {
+	padding: 2rem;
+	color: grey;
+}
+
+.section__title h2 {
+	font-size: 2rem;
+	font-weight: 400;
+}
+
+.section__title p {
+	font-size: 0.8rem;
+} 
+
+
+
+.collapse__main {
+	margin: 0 auto 2rem;
+	width: 70%;
+	box-shadow: 2px 2px 20px silver;
+	text-align: left;
+	padding: 3rem 5rem;
+}
+
+.domain__registeration {
+	text-align: center;
+	padding-top: 1rem;
+}
+
+.key__points {
+	margin: 0 auto 2rem;
+	width: 70%;
+	box-shadow: 2px 2px 20px silver;
+	text-align: left;
+	padding: 3.5rem 2rem;
+}
+
+.key__heading {
+	background-color: #358cdd;
+	border-radius: 3px;
+	margin: 0.6rem 0;
+}
+
+.key__heading h4 {
+	font-weight: 400;
+	padding: 0.5rem;
+	font-size: 1.3rem;
+	color: white;
+}
+
+.key__info {
+	background-color: #f8f8f8;
+	border-radius: 3px;
+	color: #8e8e8e;
+	border: 1px solid silver;
+	margin: 0.6rem 0;
+}
+
+.key__info p {
+	font-weight: 400;
+	padding: 0.5rem;
+	font-size: 0.8rem;
+}
+
+.resellers {
+	text-align: center;
+	padding: 1rem 0 3rem 0;
+	
+}
+
+@media (max-width: 767px) and (min-width: 576px){
+	.collapse__main { padding: 3rem 2rem;}
+}
+
+@media (max-width: 576px){
+	.collapse__main { width: 90%; padding: 3rem 0.5rem;}
+	.key__points { width: 90%; padding: 3rem 0.5rem;}
+}

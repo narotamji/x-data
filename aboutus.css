@@ -1,0 +1,80 @@
+/*banner section*/
+
+.au__banner {
+	background: linear-gradient(to top, rgba(0,0,0,0.6) 10%, transparent), url(Images/au.jpg) no-repeat center center;
+	background-size: cover;
+	margin-top: 0;
+	padding-top: 2rem;
+}
+
+/*container__2*/
+
+.feature__title h1 {
+	font-weight: bolder;
+	font-size: 3rem;
+	color: #358cdd;
+}
+
+
+/*container__3*/
+.container__3 {
+	background: url(Images/team.jpg) repeat;
+	background-position: center;
+	margin-top: 0;
+}
+
+.carousel__title {
+	color: white;
+	text-align: center;
+}
+
+.carousel__title h2 {
+	padding: 3rem 0 0.5rem;
+	font-weight: 400;
+}
+
+.carousel__title p {
+	font-size: 0.8rem;
+	color: silver;
+}
+
+.carousel__text {
+	position: relative;
+	top: 0;
+	margin-left: 3rem;
+	padding-left: 1rem;
+	width: 60%;
+}
+
+.carousel__text p {
+	font-size: 0.8rem;
+}
+
+.carousel__img {
+	padding: 0;
+	background-color: white;
+	width: 250px;
+	margin: 1rem auto 0;
+}
+
+.carousel__img img {
+	padding: 10px;
+	width: 250px;
+	vertical-align: middle;
+	filter: grayscale(100%);
+	transition: all .3s;
+}
+
+.carousel__img img:hover {
+	filter: none;
+}
+
+.container__reachus {
+	padding-bottom: 2.5rem;
+	background-color: #fff;
+}
+
+@media (max-width: 576px) {
+	.carousel__img {width: 200px;}
+	.carousel__img img {width: 200px;}
+}

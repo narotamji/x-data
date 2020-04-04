@@ -1,0 +1,30 @@
+.error {
+	background-color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+ 
+.error__404 {
+	padding: 5rem 0;
+}
+ 
+.error__title {
+	padding: 1rem 0;
+	line-height: 2;
+	color: grey;
+}
+ 
+ .error__title h1 {
+	font-size: 7rem;
+	color: #358cdd;
+	font-weight: bold;
+}
+  
+.error__image {
+	padding: 1rem 0;
+}
+  
+.error__image img {
+	width: 250px;
+}
