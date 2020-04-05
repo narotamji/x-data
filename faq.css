@@ -47,6 +47,12 @@ body {
 	.banner__title h2 {font-size: 2rem;}
 	.banner__info p { width: 100%; font-size: 0.8rem;}
 }
+
+@media (max-width: 991px) and (max-height: 500px) {
+	.faq__banner {padding-top: 0;}
+	.banner__content {margin-top: 0;}
+}
+
 /*first__container*/
 .first__container {
 	background-color: #358cdd;
