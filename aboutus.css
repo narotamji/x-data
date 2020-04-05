@@ -7,6 +7,10 @@
 	padding-top: 2rem;
 }
 
+@media (max-width: 991px) and (max-height: 500px) {
+	.au__banner {padding-top: 0;}
+}
+
 /*container__2*/
 
 .feature__title h1 {
