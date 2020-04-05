@@ -46,6 +46,11 @@
 	.banner__info p { width: 100%; font-size: 0.8rem;}
 }
 
+@media (max-width: 991px) and (max-height: 500px) {
+	.cu__banner {padding-top: 0;}
+	.banner__content {margin-top: 0;}
+}
+
 /*container__2*/
 .container__2 {
 	padding: 3rem 0;
