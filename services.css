@@ -53,3 +53,8 @@
 @media (max-width: 767px) {
 	.tab-pane .d-flex {flex-flow: wrap;}
 }
+
+@media (max-width: 991px) and (max-height: 500px) {
+	.s__banner {padding-top: 0;}
+	.banner__content {margin-top: 0;}
+}
