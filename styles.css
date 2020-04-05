@@ -14,7 +14,7 @@
 }
 
 @media (max-width: 991px) and (max-height: 500px) {
-	.plan__features {padding-top: 0;}
+	.plan__features {padding-top: 0rem;}
 }
 
 .plan__title {
