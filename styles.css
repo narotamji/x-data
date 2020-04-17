@@ -1,7 +1,8 @@
 /* container 1 code */
 .container__1 {
-    background: url(Images/h-bg.jpg) left 100% top 100%/ cover no-repeat border-box fixed;
-    margin: 0;
+	background: url(Images/h-bg.jpg) center center no-repeat;
+	background-size: cover;
+	margin: 0;
 	padding-top: 3rem;
 }
 
